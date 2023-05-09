@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(123, 25, 25);
+    background-image: url(../img/god.jpg);
+    color: white
+
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio h1{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.inicio img{
+    border-radius: 100%;
+    border: 5px solid white;
+}
+
+h1{
+color:rgb(202, 169, 169) ;
+}
+h2{
+    color:rgb(241, 196, 15) ;
+}
+h3{
+    color:rgb(42, 236, 3) ;}
+h4{
+    color:rgb(20, 58, 251) ;
+}
+h5{
+    color:rgb(243, 22, 228) ;}
+h6{
+    color:rgb(244, 24, 97) ;}
+
+.primer-parrafo{
+
+    color:rgb(17, 215, 205);
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250;
+}
+.segundo-parrafo{
+
+    color:rgb(83, 45, 196);
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250;
+}
+.galeria{
+    display:flex;
+    border:10px solid transparent;
+    border-image: linear-gradient(to bottom, #531010 30%, #986a6a 90% ) 1;
+    overflow-x: scroll;
+}
+.galeria img{
+    width:325px;
+    height: 200px;
+}
