@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(123, 25, 25);
+    background-color: rgb(61, 6, 6);
     background-image: url(../img/god.jpg);
     color: white
 
@@ -13,13 +13,11 @@ body{
     font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
+
 }
-.inicio img{
-    border-radius: 100%;
-    border: 5px solid white;
-}
+
 h1{
-color:rgb(228, 21, 21) ;
+color:rgb(202, 169, 169) ;
 }
 h2{
     color:rgb(241, 196, 15) ;
@@ -57,4 +55,19 @@ h6{
 .galeria img{
     width:325px;
     height: 200px;
+}
+
+
+.informacion{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.blanco{
+
+    color: white !important;
 }
