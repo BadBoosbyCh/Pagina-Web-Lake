@@ -1,7 +1,7 @@
 body{
     background-color: rgb(61, 6, 6);
-    background-image: url(../img/god.jpg);
-    color: white
+    background-image: url(https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80);
+    color: black;
 
 }
 .inicio{
@@ -34,8 +34,8 @@ h6{
 
 .primer-parrafo{
 
-    color:rgb(17, 215, 205);
-    font-size: 50px;
+    color:azure;
+    font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 250;
 }
@@ -52,11 +52,6 @@ h6{
     border-image: linear-gradient(to bottom, #531010 30%, #986a6a 90% ) 1;
     overflow-x: scroll;
 }
-.galeria img{
-    width:325px;
-    height: 200px;
-}
-
 
 .informacion{
 
@@ -71,3 +66,7 @@ h6{
 
     color: white !important;
 }
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
